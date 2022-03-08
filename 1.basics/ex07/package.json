@@ -1,0 +1,13 @@
+{
+  "name": "ex07",
+  "version": "1.0.0",
+  "description": "과제: 내가 직접 만드는 Hello World",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack serve --progress",
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
