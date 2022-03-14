@@ -2,12 +2,16 @@ ex02: Component styling(Working with UI)
 
 01. inline styling
 02. Normal CSS(css loader options: {module: false})
+  - $ npm run debug src=02 css-modules=false
 03. Normal CSS(css loader options: {module: true})
+  - $ npm run debug src=03 css-modules=true
 04. CSS Module(css loader options: {module: true})
+  - $ npm run debug src=04 css-modules=true
 05. SACC & SCSS
 06.
 07.
 08.
+
 1. 설치
 $ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react
 $ npm i react react-dom
@@ -23,4 +27,4 @@ webpack.config.js
   }
 
 4. 실행
-$ npm run debug src={01|02|03|04|... }
+$ npm run debug src={01|02|03|04|... } css-modules={[true]|false}
