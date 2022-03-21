@@ -1,7 +1,7 @@
 {
   "name": "emaillist",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. 설치\r $ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react\r $ npm i react react-dom",
   "main": "index.js",
   "scripts": {
     "debug": "npx webpack serve --config config/webpack.config.js --progress --mode development",
@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.7",
+    "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
