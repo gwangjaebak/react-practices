@@ -1,0 +1,24 @@
+# JavaScript Project
+**/node_modules
+
+# IDE(VSCode, Eclipse(STS), Intellij)
+**/.vscode
+**/.sln
+**/.sw?
+
+**/.classpath
+**/.project
+**/.settings
+**/.apt_generated
+**/.apt_generated_tests
+**/.factorypath
+**/.springBeans
+**/target
+
+**/.idea
+**/.iml
+
+**/build
+
+# for mac
+**/DS_Store
