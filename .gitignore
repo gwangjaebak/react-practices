@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # JavaScript Project
 **/node_modules
 
@@ -14,13 +13,6 @@
 **/.apt_generated_tests
 **/.factorypath
 **/.springBeans
-=======
-**/node_modules
-
-**/.classpath
-**/.project
-**/.settings
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
 **/target
 
 **/.idea
@@ -28,8 +20,5 @@
 
 **/build
 
-<<<<<<< HEAD
 # for mac
-=======
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
 **/DS_Store

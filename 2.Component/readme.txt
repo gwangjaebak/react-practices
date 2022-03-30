@@ -19,8 +19,4 @@ AJAX: fetch(ES6 표준), axios
 kanbanboard
 emaillist
 guestbook
-<<<<<<< HEAD
 gallery
-=======
-gallery
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb

@@ -22,7 +22,7 @@ emails.push({});
 ```
 
 ### How I:
-1. 비파괴 배열 메소드 및 연산자: map, filter, concat, ...(ES6 spread 연산자 활용)
+1. 비파괴 배열 메소드 및 연산자: map, filter, reduce, concat, ...(ES6 spread 연산자 활용)
 2. src/01 참고
 
 ### How II:
@@ -33,7 +33,7 @@ emails.push({});
 1. I, II는 Nest Object 가 있는 경우 까다롭다.
    - Object.assign은 deep copy 지원 안함.
    - deep clone을 뜨는 방법은 비용이 비싸다.
-   - 직접 하는 방법은 관리가 어렵고 코드에 실수가 있을 가능 성 많음.
+   - 직접 하는 방법은 관리가 어렵고 코드에 실수가 있을 가능성 많음.
 2. 이는 자바스크립트가 원래 저 따위이기 때문에 어쩔 수 없다.
 3. src/03 참고
 

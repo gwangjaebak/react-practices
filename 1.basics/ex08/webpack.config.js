@@ -1,10 +1,6 @@
 const path = require('path');
 
-<<<<<<< HEAD
 module.exports = function(env) { 
-=======
-module.exports = function(env) {
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
     return {
         mode: 'development',
         entry: path.resolve(`src/${env.src}/index.js`),
@@ -35,8 +31,4 @@ module.exports = function(env) {
             historyApiFallback: true
         } 
     };
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb

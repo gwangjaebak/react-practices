@@ -15,11 +15,7 @@ ex01: Property
 
 1. 설치
 $ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react
-<<<<<<< HEAD
 $ npm i react react-dom
-=======
-$ npm i react react-dom prop-types
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
 
 2. 설정
 babel.config.json
@@ -32,8 +28,4 @@ webpack.config.js
   }
 
 4. 실행
-<<<<<<< HEAD
 $ npm run debug src={01|02|03|04|... }
-=======
-$ npm run debug src={01|02|03|04|... }
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb

@@ -1,11 +1,7 @@
 {
   "name": "ex04",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "ex04: Component - State",
-=======
-  "description": "ex04: Component State",
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
   "main": "index.js",
   "scripts": {
     "debug": "npx webpack serve --config config/webpack.config.js --progress --mode development --env",

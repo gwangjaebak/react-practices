@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, {Fragment} from 'react'
 import {PropTypes} from 'prop-types';
 
@@ -45,30 +44,11 @@ export default function MyComponent({props01, props02, props03, props04, props05
         </span>
         <br/>
 
-=======
-import React, { Fragment } from 'react'
-import {PropTypes} from 'prop-types';
-
-export default function MyComponent({props01, props02, props03}) {
-  return (
-    <Fragment>
-      <h2>Property Validation</h2>
-      
-      <span>props01: {props01 ? props01 : '--- Not Set ---'}</span>
-      <br/>
-      
-      <span>props02: {props02 ? props02 : '--- Not Set ---'}</span>
-      <br/>
-      
-      <span>props03: {props03 ? `${props03}` : '--- Not Set ---'}</span>
-      <br/>
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
     </Fragment>
   )
 }
 
 MyComponent.propTypes = {
-<<<<<<< HEAD
     // PropTypes Validator(primitive)
     props01: PropTypes.string,
     props02: PropTypes.number.isRequired,
@@ -95,17 +75,4 @@ MyComponent.defaultProps = {
     props04: {},
     props05: [],
     props06: () => {} // dummy 함수
-=======
-  // PropTypes Validator(primitive)
-  props01: PropTypes.string,
-  props02: PropTypes.string.isRequired,
-  props03: PropTypes.bool.isRequired
-}
-
-// default value
-MyComponent.defaultProps = {
-  props01: '기본값',
-  props02: 10,
-  props03: false
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
 }

@@ -30,12 +30,12 @@ const App = () => {
       
       setEmails(json.data);
     } catch(err) {
-      console.log(err);
-    }
+      console.log(err);      
+    }  
   }, []);
 
   const notifyKeywordChange = async function(keyword) {
-    try {
+    try {  
       const response = await fetch(`/api?kw=${keyword}`, {
         method: 'get',
         headers: {

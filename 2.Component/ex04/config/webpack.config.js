@@ -20,13 +20,8 @@ module.exports = function(env) {
             }, {
                 test: /\.(sa|sc|c)ss$/i,
                 use: [
-<<<<<<< HEAD
                     'style-loader',
                     {loader: 'css-loader', options: {modules: true}},
-=======
-                    'style-loader', 
-                    {loader: 'css-loader', options: {modules: true}}, 
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
                     'sass-loader']
             }, {
                 test: /\.(png|git|jpe?g|svg|ico|tiff?|bmp)$/i,
@@ -42,8 +37,4 @@ module.exports = function(env) {
             historyApiFallback: true
         } 
     };
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb

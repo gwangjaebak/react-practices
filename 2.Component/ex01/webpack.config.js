@@ -31,8 +31,4 @@ module.exports = function(env) {
             historyApiFallback: true
         } 
     };
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb

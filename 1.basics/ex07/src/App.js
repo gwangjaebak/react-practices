@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 import React from  'react';
 import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
-=======
-import React from 'react';
-import logo from './assets/images/logo.svg';
-import './assets/css/App.css';   // 위치 재설정
->>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
 
 function App() {
   return (
