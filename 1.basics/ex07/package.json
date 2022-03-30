@@ -1,7 +1,11 @@
 {
   "name": "ex07",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
+=======
+  "description": "과제: 내가 직접 만드는 Hello World",
+>>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
   "main": "index.js",
   "scripts": {
     "start": "npx webpack serve --progress",
@@ -16,7 +20,11 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
+<<<<<<< HEAD
     "css-loader": "^6.7.0",
+=======
+    "css-loader": "^6.7.1",
+>>>>>>> 98bd9277daac2ae0f6927483418e553c6d7f3ceb
     "node-sass": "^7.0.1",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
